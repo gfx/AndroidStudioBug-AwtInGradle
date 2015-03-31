@@ -17,3 +17,8 @@ allprojects {
         jcenter()
     }
 }
+
+
+println("XXX " + System.getProperty("java.awt.graphicsenv"))
+println("XXX " + javax.imageio.ImageIO.read(project.file("app/src/main/res/mipmap-hdpi/ic_launcher.png")).graphics)
+//println("XXX " + java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment())
